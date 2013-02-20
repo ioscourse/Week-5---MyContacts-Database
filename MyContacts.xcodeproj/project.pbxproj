@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12BFD02116D2D8CA0075EAB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BFD02016D2D8CA0075EAB9 /* UIKit.framework */; };
+		12BFD02316D2D8CA0075EAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BFD02216D2D8CA0075EAB9 /* Foundation.framework */; };
+		12BFD02516D2D8CA0075EAB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BFD02416D2D8CA0075EAB9 /* CoreGraphics.framework */; };
+		12BFD02B16D2D8CA0075EAB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12BFD02916D2D8CA0075EAB9 /* InfoPlist.strings */; };
+		12BFD02D16D2D8CA0075EAB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFD02C16D2D8CA0075EAB9 /* main.m */; };
+		12BFD03116D2D8CA0075EAB9 /* MyContactsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFD03016D2D8CA0075EAB9 /* MyContactsAppDelegate.m */; };
+		12BFD03316D2D8CA0075EAB9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BFD03216D2D8CA0075EAB9 /* Default.png */; };
+		12BFD03516D2D8CA0075EAB9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BFD03416D2D8CA0075EAB9 /* Default@2x.png */; };
+		12BFD03716D2D8CA0075EAB9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BFD03616D2D8CA0075EAB9 /* Default-568h@2x.png */; };
+		12BFD03A16D2D8CA0075EAB9 /* MyContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFD03916D2D8CA0075EAB9 /* MyContactsViewController.m */; };
+		12BFD03D16D2D8CA0075EAB9 /* MyContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12BFD03B16D2D8CA0075EAB9 /* MyContactsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12BFD01C16D2D8CA0075EAB9 /* MyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BFD02016D2D8CA0075EAB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12BFD02216D2D8CA0075EAB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12BFD02416D2D8CA0075EAB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12BFD02816D2D8CA0075EAB9 /* MyContacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyContacts-Info.plist"; sourceTree = "<group>"; };
+		12BFD02A16D2D8CA0075EAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12BFD02C16D2D8CA0075EAB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12BFD02E16D2D8CA0075EAB9 /* MyContacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyContacts-Prefix.pch"; sourceTree = "<group>"; };
+		12BFD02F16D2D8CA0075EAB9 /* MyContactsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyContactsAppDelegate.h; sourceTree = "<group>"; };
+		12BFD03016D2D8CA0075EAB9 /* MyContactsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactsAppDelegate.m; sourceTree = "<group>"; };
+		12BFD03216D2D8CA0075EAB9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		12BFD03416D2D8CA0075EAB9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		12BFD03616D2D8CA0075EAB9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		12BFD03816D2D8CA0075EAB9 /* MyContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyContactsViewController.h; sourceTree = "<group>"; };
+		12BFD03916D2D8CA0075EAB9 /* MyContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactsViewController.m; sourceTree = "<group>"; };
+		12BFD03C16D2D8CA0075EAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyContactsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12BFD01916D2D8CA0075EAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BFD02116D2D8CA0075EAB9 /* UIKit.framework in Frameworks */,
+				12BFD02316D2D8CA0075EAB9 /* Foundation.framework in Frameworks */,
+				12BFD02516D2D8CA0075EAB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12BFD01116D2D8CA0075EAB9 = {
+			isa = PBXGroup;
+			children = (
+				12BFD02616D2D8CA0075EAB9 /* MyContacts */,
+				12BFD01F16D2D8CA0075EAB9 /* Frameworks */,
+				12BFD01D16D2D8CA0075EAB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12BFD01D16D2D8CA0075EAB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12BFD01C16D2D8CA0075EAB9 /* MyContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12BFD01F16D2D8CA0075EAB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12BFD02016D2D8CA0075EAB9 /* UIKit.framework */,
+				12BFD02216D2D8CA0075EAB9 /* Foundation.framework */,
+				12BFD02416D2D8CA0075EAB9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12BFD02616D2D8CA0075EAB9 /* MyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				12BFD02F16D2D8CA0075EAB9 /* MyContactsAppDelegate.h */,
+				12BFD03016D2D8CA0075EAB9 /* MyContactsAppDelegate.m */,
+				12BFD03816D2D8CA0075EAB9 /* MyContactsViewController.h */,
+				12BFD03916D2D8CA0075EAB9 /* MyContactsViewController.m */,
+				12BFD03B16D2D8CA0075EAB9 /* MyContactsViewController.xib */,
+				12BFD02716D2D8CA0075EAB9 /* Supporting Files */,
+			);
+			path = MyContacts;
+			sourceTree = "<group>";
+		};
+		12BFD02716D2D8CA0075EAB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12BFD02816D2D8CA0075EAB9 /* MyContacts-Info.plist */,
+				12BFD02916D2D8CA0075EAB9 /* InfoPlist.strings */,
+				12BFD02C16D2D8CA0075EAB9 /* main.m */,
+				12BFD02E16D2D8CA0075EAB9 /* MyContacts-Prefix.pch */,
+				12BFD03216D2D8CA0075EAB9 /* Default.png */,
+				12BFD03416D2D8CA0075EAB9 /* Default@2x.png */,
+				12BFD03616D2D8CA0075EAB9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12BFD01B16D2D8CA0075EAB9 /* MyContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BFD04016D2D8CA0075EAB9 /* Build configuration list for PBXNativeTarget "MyContacts" */;
+			buildPhases = (
+				12BFD01816D2D8CA0075EAB9 /* Sources */,
+				12BFD01916D2D8CA0075EAB9 /* Frameworks */,
+				12BFD01A16D2D8CA0075EAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyContacts;
+			productName = MyContacts;
+			productReference = 12BFD01C16D2D8CA0075EAB9 /* MyContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12BFD01316D2D8CA0075EAB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyContacts;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "RVC Student";
+			};
+			buildConfigurationList = 12BFD01616D2D8CA0075EAB9 /* Build configuration list for PBXProject "MyContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12BFD01116D2D8CA0075EAB9;
+			productRefGroup = 12BFD01D16D2D8CA0075EAB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12BFD01B16D2D8CA0075EAB9 /* MyContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12BFD01A16D2D8CA0075EAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BFD02B16D2D8CA0075EAB9 /* InfoPlist.strings in Resources */,
+				12BFD03316D2D8CA0075EAB9 /* Default.png in Resources */,
+				12BFD03516D2D8CA0075EAB9 /* Default@2x.png in Resources */,
+				12BFD03716D2D8CA0075EAB9 /* Default-568h@2x.png in Resources */,
+				12BFD03D16D2D8CA0075EAB9 /* MyContactsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12BFD01816D2D8CA0075EAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BFD02D16D2D8CA0075EAB9 /* main.m in Sources */,
+				12BFD03116D2D8CA0075EAB9 /* MyContactsAppDelegate.m in Sources */,
+				12BFD03A16D2D8CA0075EAB9 /* MyContactsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12BFD02916D2D8CA0075EAB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12BFD02A16D2D8CA0075EAB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12BFD03B16D2D8CA0075EAB9 /* MyContactsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12BFD03C16D2D8CA0075EAB9 /* en */,
+			);
+			name = MyContactsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12BFD03E16D2D8CA0075EAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12BFD03F16D2D8CA0075EAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12BFD04116D2D8CA0075EAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContacts/MyContacts-Prefix.pch";
+				INFOPLIST_FILE = "MyContacts/MyContacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12BFD04216D2D8CA0075EAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyContacts/MyContacts-Prefix.pch";
+				INFOPLIST_FILE = "MyContacts/MyContacts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12BFD01616D2D8CA0075EAB9 /* Build configuration list for PBXProject "MyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BFD03E16D2D8CA0075EAB9 /* Debug */,
+				12BFD03F16D2D8CA0075EAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BFD04016D2D8CA0075EAB9 /* Build configuration list for PBXNativeTarget "MyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BFD04116D2D8CA0075EAB9 /* Debug */,
+				12BFD04216D2D8CA0075EAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12BFD01316D2D8CA0075EAB9 /* Project object */;
+}
